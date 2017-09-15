@@ -1,0 +1,140 @@
+<!-------------------------------------------------------------
+                          
+-------------------------------------------------------------->
+
+/* Prevents adjustments of font size after orientation change in IE on Windows phone and in IOS */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/* Apply a natural box model layout to all elements */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+<!-------------------------------------------------------------
+                          
+-------------------------------------------------------------->
+
+/* #map {
+        height: 100%;
+      }
+       Optional: Makes the sample page fill the window. 
+
+html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }*/
+
+.homeImg {
+    
+    
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoC {
+  margin-left: 10%;
+}
+
+.logoImg {
+    width: 200px;
+    height: auto;
+}
+
+.searchC {
+    margin-right: 10%;
+    padding-top: 50px;
+}
+
+.middleArea{
+    display: flex;
+    background-color: blue;
+    justify-content: space-around;
+}
+
+.menuItems {
+    order: 1;
+    width: 600px;
+    height: 400px;
+    padding-left: 200px;
+ 
+}
+
+.menuItems li {
+    border-bottom: 1px solid lightblue;
+    list-style-type: none;
+    color: white;
+    width: 350px;
+    padding: 20px 0px 20px 20px;
+    
+}
+
+.mainImg {
+    order: 2;
+    overflow: hidden;
+    max-height: 500px; 
+    
+}
+
+.homePicture {
+    width: 90%;
+    height: 500px;
+    margin-left: 40px;
+ 
+}
+
+.slogan {
+    position: absolute;
+    
+    color: white;
+    background-color: blue;
+}
+
+.bottomArea {
+    display: flex;
+    justify-content: center;
+}
+
+.article1 {
+    order: 1;
+
+}
+
+.articleInfo li {
+    list-style-type: none;
+    color: royalblue;
+}
+
+.article2 {
+    order: 2;
+    
+}
+
+
+.article3 {
+    order: 3;
+}
+
+[class$='Head'] {
+    background-color: blue;
+    color: white;
+    transform: rotate(-90deg);
+    width: 300px;
+    text-align: right;
+    height: 50px;
+ 
+}
+
+.firstSubHead {
+    
+}
